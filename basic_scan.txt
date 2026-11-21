@@ -1,0 +1,12 @@
+# Nmap 7.993 scan initiated Sat Nov 21 22:45:39 2026 as: nmap -oN basic_scan.txt 192.168.31.213
+Nmap scan report for Harshal.lan (192.168.31.213)
+Host is up (0.0015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+7070/tcp open  realserver
+
+# Nmap done at Sat Nov 21 22:45:40 2026 -- 1 IP address (1 host up) scanned in 0.56 seconds

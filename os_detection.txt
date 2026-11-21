@@ -1,0 +1,16 @@
+# Nmap 7.993 scan initiated Sat Nov 21 22:46:05 2026 as: nmap -O -oN os_detection.txt 192.168.31.213
+Nmap scan report for Harshal.lan (192.168.31.213)
+Host is up (0.00076s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+7070/tcp open  realserver
+Aggressive OS guesses: Microsoft Windows 11 24H2 - 25H2 (98%), Microsoft Windows 10 1607 - 11 23H2 (97%), Microsoft Windows 11 21H2 (97%), Microsoft Windows 11 23H2 (97%), Microsoft Windows 10 1511 (94%), Microsoft Windows 10 1703 (94%), Microsoft Windows 11 24H2 (94%), Microsoft Windows Server 2022 (94%), Microsoft Windows 10 1703 - 11 21H2 (93%), Microsoft Windows 10 1703 or Windows 11 21H2 - 23H2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov 21 22:46:09 2026 -- 1 IP address (1 host up) scanned in 4.51 seconds
