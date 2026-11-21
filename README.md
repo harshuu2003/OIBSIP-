@@ -73,7 +73,7 @@ See `nmap_scan_results.txt` for detailed findings.
 - `service_scan.txt` – Service detection output.
 - `os_detection.txt` – OS detection output.
 - `nmap_scan_results.txt` – Detailed findings and security analysis.
-- `screenshots/` – Terminal screenshots of the scans.
+- `Screenshots` – Terminal screenshots of the scans.
 
 ## Conclusion
 This task provided practical experience with Nmap and helped identify network services running on a local Windows machine. It also demonstrated why open ports should be reviewed and secured.
